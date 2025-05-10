@@ -1,0 +1,33 @@
+.map-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.leaflet-container{
+    height: 88.9vh;
+    z-index: 1;
+}
+
+.map-position{
+    z-index: 2;
+}
+
+.telemetry-position{
+    position: absolute;
+    z-index: 10;
+    top: 5px;
+}
+
+.command-control-position{
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+}
+
+.camera-position{
+    position: absolute;
+    z-index: 10;
+    right: 0px;
+    bottom: 0px;
+}

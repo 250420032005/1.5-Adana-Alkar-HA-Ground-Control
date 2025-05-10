@@ -1,0 +1,71 @@
+.part-telemetry{
+    background-color: rgb(120, 134, 199, 0.8);
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    backdrop-filter: blur(1px);
+    width: 22rem;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    outline: 4px solid rgb(45, 51, 107);
+    font-family: "Poppins", sans-serif;
+}
+
+.part-telemetry ul{
+    list-style: none;
+}
+
+.part-telemetry ul li{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-bottom: 0.8rem;
+}
+
+.part-command-control{
+    background-color: rgb(120, 134, 199, 0.8);
+    outline: 4px solid rgb(45, 51, 107);
+    box-shadow: 5px 5px 5px rgba(0,0,0);
+    backdrop-filter: blur(1px);
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    padding: 1rem;
+    border-radius: 15px;
+}
+
+.part-command-control button{
+    border: none;
+    font-weight: 450;
+    box-shadow: 2px 2px 2px rgba(0,0,0);
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.button-style-1{
+    color: rgb(61, 53, 53);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 0 auto;
+}
+
+.button-style-2{
+    background-color: rgb(104, 236, 104);
+}
+
+.button-style-3{
+    background-color: rgb(233, 58, 58);
+    color: rgb(255, 255, 255);
+}
+
+.part-camera{
+    padding-right: 0.2rem;
+    border-radius: 20px;
+}

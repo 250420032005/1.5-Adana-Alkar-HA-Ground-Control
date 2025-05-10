@@ -1,0 +1,13 @@
+.Header_Style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+    background-color: rgb(0, 13, 157);
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    color: rgb(189, 190, 190);
+}

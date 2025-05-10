@@ -1,0 +1,43 @@
+.aerial-vehicle-sidebar{
+  background-color: rgb(169, 181, 223);
+  display:flex;
+  flex-flow: column;
+  width: 3.5rem;
+  min-height: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.aerial-vehicle-sidebar ul{
+  list-style: none;
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.aerial-vehicle-sidebar ul li button{
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aerial-vehicle-sidebar ul li:nth-child(2) img{
+  border-radius: 5px;
+  width: 2.8rem;
+  height: 2.8rem;
+}
+
+.aerial-vehicle-sidebar ul li:nth-child(1) img{
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.aerial-vehicle-sidebar ul li:nth-child(3) img{
+  width: 2.2rem;
+  height: 2.2rem;
+}
